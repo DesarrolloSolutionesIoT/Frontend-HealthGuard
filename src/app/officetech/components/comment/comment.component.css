@@ -1,0 +1,28 @@
+mat-card {
+  border-radius: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 1rem 0;
+}
+
+mat-card-header {
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  padding: 1rem;
+}
+
+.card__content-header-title {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.card__content-header-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.card__content-subject {
+  font-weight: bold;
+}
+

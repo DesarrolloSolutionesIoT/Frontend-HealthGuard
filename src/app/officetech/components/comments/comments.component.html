@@ -1,0 +1,35 @@
+<div class="container">
+  <h1>Your previous tech requirements:</h1>
+  <div class="content-wrapper">
+    <mat-card class="tech-card">
+      <mat-card-header>
+        <mat-card-title>Tech Service</mat-card-title>
+      </mat-card-header>
+      <div class="user-details">
+        <img class="user-icon" src="assets/images/icon-user.png" alt="User icon">
+        <mat-card-subtitle>David Fernandez, General doctor</mat-card-subtitle>
+      </div>
+      <mat-card-content>
+        <p>VERY HIGH HEART RATE AND HIGH TEMPERATURE</p>
+      </mat-card-content>
+    </mat-card>
+    <div class="comment-section">
+      <textarea class="text-box" rows="4" placeholder="Escriba sus comentarios aquí..."></textarea>
+      <div class="rating">
+        <label><input type="radio" name="rating" value="1"> 1</label>
+        <label><input type="radio" name="rating" value="2"> 2</label>
+        <label><input type="radio" name="rating" value="3"> 3</label>
+        <label><input type="radio" name="rating" value="4"> 4</label>
+        <label><input type="radio" name="rating" value="5"> 5</label>
+        <label><input type="radio" name="rating" value="6"> 6</label>
+        <label><input type="radio" name="rating" value="7"> 7</label>
+        <label><input type="radio" name="rating" value="8"> 8</label>
+        <label><input type="radio" name="rating" value="9"> 9</label>
+        <label><input type="radio" name="rating" value="10"> 10</label>
+      </div>
+      <button class="comment-button" (click)="addComment()">Add comment</button>
+    </div>
+  </div>
+</div>
+
+

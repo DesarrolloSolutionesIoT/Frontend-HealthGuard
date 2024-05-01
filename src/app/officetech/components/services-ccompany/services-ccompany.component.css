@@ -1,0 +1,112 @@
+.tech-services {
+  max-width: 1080px;
+  margin: 0 auto;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+
+.tech-services h1 {
+  text-align: left;
+  color: #232F9B;
+  margin: 2rem;
+  font-size: 48px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.btn-rounded-blue {
+  background-color: #232F9B;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.sub-titles {
+  display: flex;
+  justify-content: space-between;
+  margin:2rem;
+}
+
+.yellow-box {
+  background-color: #FBD864;
+  padding: 8px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  max-width: max-content;
+}
+
+.white-box {
+  border: none;
+  background-color: white;
+  padding: 15px;
+  margin: 10px 5px;
+  border-radius: 45px;
+}
+
+.white-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.report-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.report-description {
+  flex: 3;
+}
+
+.report-author, .report-date {
+  flex: 1;
+  text-align: left;
+  margin-right: 100px;
+}
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-rounded-blue {
+  margin-left: 20px;
+}
+
+.services__history {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 820px) {
+  .tech-services {
+    padding: 2rem;
+  }
+
+  .white-box-container {
+    flex-direction: column;
+  }
+
+
+  .yellow-box:last-child {
+    display: none;
+  }
+
+  p.report-author, p.report-date {
+    margin: 0;
+  }
+}

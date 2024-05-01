@@ -1,0 +1,50 @@
+<div class="card">
+  <div class="profile-image">
+    <img src="url_de_la_imagen" alt="Avatar" class="avatar">
+  </div>
+  <div class="card-content">
+    <div class="card-body">
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" class="form-control" id="firstName" [(ngModel)]="firstName">
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" class="form-control" id="lastName" [(ngModel)]="lastName">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" [(ngModel)]="email">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="text" class="form-control" id="phone" [(ngModel)]="phone">
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="password" [(ngModel)]="password">
+      </div>
+    </div>
+  </div>
+</div>
+<mat-card class="card2">
+  <mat-card-content>
+    <h2>Your Skills</h2>
+    <mat-action-list>
+
+      <button *ngFor="let skill of skills" mat-list-item>
+        <mat-icon>star</mat-icon>
+        <span>{{ skill }}</span>
+      </button>
+    </mat-action-list>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button color="primary" (click)="openDialog()">Editar habilidades</button>
+  </mat-card-actions>
+</mat-card>
+<div class="op">
+  <button class="btn btn-edit">Guardar</button>
+  <button class="btn btn-cancel">Cancelar</button>
+</div>
+
+

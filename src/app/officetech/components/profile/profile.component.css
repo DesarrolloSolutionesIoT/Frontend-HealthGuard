@@ -1,0 +1,76 @@
+.card {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-body .form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border-radius: 10px; /* Bordes redondeados para los campos de entrada */
+  padding: 10px; /* Aumenta el espacio interno */
+  font-size: 16px; /* Tamaño de fuente más grande */
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.btn-edit {
+  border-radius: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Ajusta el espacio interno de los botones */
+  font-size: 16px; /* Tamaño de fuente más grande */
+}
+
+.btn-edit:hover {
+  background-color: #0056b3;
+}
+
+.btn-cancel {
+  border-radius: 20px;
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn-cancel:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
